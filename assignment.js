@@ -1,8 +1,11 @@
+// https://github.com/RIyan30019/JS-Assignment1
+
+
 
 // function converts Kilometers into meters
 function kilometerToMeter(kilometerValue) {
-  if (kilometerValue < 0 || typeof kilometerValue == 'string') {
-    console.log("Sorry length can not be negative or string value");
+  if (kilometerValue <=0 || typeof kilometerValue == 'string') {
+    console.log("Sorry length can not be negative or string value or zero");
     return -1;
   }
   else {
@@ -11,7 +14,7 @@ function kilometerToMeter(kilometerValue) {
   }
 
 }
-var measurement = kilometerToMeter(5.6435);
+var measurement = kilometerToMeter(0);
 console.log(measurement);
 
 
